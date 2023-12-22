@@ -1,0 +1,13 @@
+.banner {
+  width: max(100vh, 100%);
+}
+
+.banner--faded {
+  border-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 61),
+    #111
+  );
+  height: 7.6rem;
+}
